@@ -1,8 +1,6 @@
 # RAG_CohereLLM
 
-# PDF-based Question Answering System using Cohere
-
-PDF-based Question Answering System using Cohere. This project uses **Cohere's language model** to extract, embed, and search through text from PDF files. It enables users to ask questions based on the content of the PDF and receive answers using embeddings and search indexing techniques.
+PDF-based Question Answering RAG System using Cohere. This project uses **Cohere's language model** to extract, embed, and search through text from PDF files. It enables users to ask questions based on the content of the PDF and receive answers using embeddings and search indexing techniques.
 
 ## Project Structure
 
@@ -97,4 +95,4 @@ The project includes a basic frontend to ask questions through a web interface s
 
 ---
 
-**Contributors**: Sanjit Besthamalla
+Developed by [github.com/Sanjit1806](https://github.com/Sanjit1806)
