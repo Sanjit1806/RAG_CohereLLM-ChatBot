@@ -9,7 +9,7 @@ PDF-based Question Answering System using Cohere. This project uses **Cohere's l
 ```bash
 📂 project-folder
 ├── 📂 implementation
-│   ├── main.py
+│   ├── imp_main.py
 │   └── story.pdf
 ├── 📂 src
     ├── 📂 frontend
@@ -59,7 +59,7 @@ PDF-based Question Answering System using Cohere. This project uses **Cohere's l
 
 2. Run the program:
     ```bash
-    python main.py
+    python imp_main.py
     ```
 
 3. Enter a question when prompted:
@@ -69,21 +69,16 @@ PDF-based Question Answering System using Cohere. This project uses **Cohere's l
 
 ### 2. Running the Web App using Flask
 
-The project includes a basic frontend to ask questions through a web interface, served using Flask.
+The project includes a basic frontend to ask questions through a web interface served using Flask.
 
 1. Navigate to the `frontend` folder where the `app.py` is located.
 
-2. Ensure Flask is installed (add this to your `requirements.txt` if needed):
-    ```bash
-    pip install flask
-    ```
-
-3. Run the Flask app:
+2. Run the Flask app:
     ```bash
     python frontend/app.py
     ```
 
-4. Open your web browser and go to `http://127.0.0.1:5000`.
+3. Open your web browser and go to `http://127.0.0.1:5000`.
 
 ## Files
 
