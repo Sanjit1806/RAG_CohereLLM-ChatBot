@@ -5,7 +5,7 @@ PDF-based Question Answering RAG System using Cohere LLM. This project uses **Co
 ## Project Structure
 
 ```bash
-📂 project-folder
+📂 MAIN
 ├── 📂 implementation
 │   ├── imp_main.py
 │   └── story.pdf
