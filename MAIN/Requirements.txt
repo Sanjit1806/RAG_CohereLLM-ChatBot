@@ -1,0 +1,5 @@
+cohere
+numpy
+annoy
+PyPDF2
+flask

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask a Question</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Ask a Question</h1>
+        <h3>Book: <em>{{ book_name }}</em></h3>
+
+        {% if exit %}
+            <p>You have chosen to exit. Thank you for using the service!</p>
+        {% else %}
+            <form action="/ask" method="POST">
+                <textarea name="question" rows="5" placeholder="Enter your question" required></textarea>
+                
+                <div class="button-container">
+                    <button type="submit">Ask</button>
+                    <button type="button" onclick="location.href='/exit'">Exit</button>
+                </div>
+            </form>
+
+            {% if question %}
+            <div class="result">
+                <p><strong>Question:</strong> {{ question }}</p>
+                <p><strong>Answer:</strong> {{ answer }}</p>
+            </div>
+            {% endif %}
+        {% endif %}
+    </div>
+</body>
+</html>
