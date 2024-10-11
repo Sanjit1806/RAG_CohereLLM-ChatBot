@@ -22,7 +22,7 @@ def extract_text_from_pdf(pdf_path):
 
 # clean up
 def prepare_text(text):
-    texts = text.split('\n\n')
+    texts = text.split('\n \n')
     texts = np.array([t.strip(' \n') for t in texts if t])
     return texts
 
