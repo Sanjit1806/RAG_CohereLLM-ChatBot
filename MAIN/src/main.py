@@ -24,7 +24,7 @@ def process_book(text):
     global texts, search_index
 
     # Clean up
-    texts = text.split('\n\n')
+    texts = text.split('\n \n')
     texts = np.array([t.strip() for t in texts if t])
 
     # Embedding
